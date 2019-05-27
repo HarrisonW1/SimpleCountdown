@@ -15,7 +15,7 @@ def cant_wait():
 
     txt.set(timeLeft)
 
-    root.after(1000.cant_wait)
+    root.after(1000, cant_wait)
 
 root = Tk()
 root.attributes("-fullscreen",False)
